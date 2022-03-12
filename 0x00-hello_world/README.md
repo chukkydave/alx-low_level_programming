@@ -1,0 +1,2 @@
+## Tasks Explanations
+* [Script that runs a C file through the preprocessor and saves the result into another file](0-preprocessor)
