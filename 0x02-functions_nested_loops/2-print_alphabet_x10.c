@@ -17,7 +17,9 @@ void print_alphabet_x10(void)
 		while (ck <= 10)
 		{
 			_putchar(ch);
+			ck++;
 		}
+		ch++;
 	}
 	_putchar('\n');
 }
