@@ -10,16 +10,15 @@ void print_alphabet_x10(void)
 
 	ck = 0;
 
-	ch = 'a';
-
 	while (ck < 10)
 	{
+		ch = 'a';
 		while (ch <= 'z')
 		{
 			_putchar(ch);
 			ch++;
 		}
+		_putchar('\n');
 		ck++;
 	}
-	_putchar('\n');
 }
